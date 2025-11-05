@@ -89,20 +89,25 @@ body {
 }
 
 .chalengeimage1 {
-  width: 100%;
+  width: 90%;
   height: auto;
-  margin-bottom: 20px;
-  border-radius: 16px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  border-radius: 0% 11% 11% 0%;
 }
 
 .chalengeimage2 {
   width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  border-radius: 11% 0% 0% 11%;
 }
 
 .chalengeimage3 {
-  width: 100%;
+  width: 90%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  border-radius: 0% 11% 11% 0%;
 }/*# sourceMappingURL=style.css.map */
