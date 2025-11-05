@@ -215,12 +215,14 @@ body {
     font-size: 48px;
     line-height: 57px;
     margin: 8px 0 16px;
-    margin-top: 32px;
+    margin-top: 40px;
+    color: #cffefb;
   }
   
 .video {
     position: relative;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
   
 .video img {
@@ -234,6 +236,8 @@ body {
 
 .parawelcome {
     color: white;
+    font-size: 80%;
+    margin-bottom: 40px;
 }
 
 
