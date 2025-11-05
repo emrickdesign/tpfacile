@@ -235,9 +235,11 @@ body {
 
 
 .chalenge{
+
     background-color: #3cc8e9;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
     padding: 50px 0;
 }
 
@@ -267,8 +269,6 @@ body {
 .chalengeimage1 {
     width: 100%;
     height: auto;
-    margin-bottom: 25px;
-    margin-top: 50px;
     border-radius: 0% 11% 11% 0%;
     position: relative;
     right: 25px;
@@ -277,8 +277,6 @@ body {
 .chalengeimage2 {
     width: 100%;
     height: auto;
-    margin-bottom: 25px;
-    margin-top: 50px;
     border-radius:  11% 0% 0% 11% ;
     position: relative;
     left: 25px;
@@ -287,9 +285,42 @@ body {
 .chalengeimage3 {
     width: 100%;
     height: auto;
-    margin-bottom: 25px;
-    margin-top: 50px;
     border-radius: 0% 11% 11% 0%;
     position: relative;
     right: 25px;
+}
+
+.chalange3personne{
+    width: 280px;
+    padding-left: 80px;
+    padding-block: 40px;
+}
+
+.chalange2personne{
+    width: 280px;
+    padding-left: 80px;
+    padding-block: 40px;
+}
+
+.chalange1personne{
+    width: 280px;
+    padding-left: 40px;
+    padding-block: 40px;
+}
+
+.chalengetexte1{
+    padding-inline: 25px;
+}
+
+.chalengetexte2{
+    padding-inline: 25px;
+}
+
+.chalengetexte3{
+    padding-inline: 25px;
+}
+
+.legap1{
+    align-items: ro;
+    gap: 20px;
 }
