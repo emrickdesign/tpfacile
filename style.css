@@ -1,5 +1,9 @@
-body {
-  background-color: red;
+header {
+  background-color: #177077;
+}
+
+.imagesheader {
+  margin: 20px;
 }
 
 .bell {
