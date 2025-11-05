@@ -270,6 +270,7 @@ body {
   text-align: center;
   font-size: larger;
   text-decoration-color: #1b4d99;
+  font-size: 40px;
 }
 
 .chalengeimage1 {
@@ -358,4 +359,8 @@ body {
 
 .titre-clair {
   color: white;
+}
+
+.titreengros {
+  font-size: 40px;
 }/*# sourceMappingURL=style.css.map */
