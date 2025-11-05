@@ -140,6 +140,10 @@ body {
   text-decoration-skip-ink: auto;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
 .header {
@@ -160,7 +164,6 @@ body {
   display: block;
 }
 
-/* Group icons right */
 .iconright {
   display: flex;
   align-items: center;

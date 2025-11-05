@@ -123,6 +123,11 @@ body {
           text-decoration-skip-ink: auto;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   background-color: #166f78;
 }
@@ -141,7 +146,6 @@ body {
   display: block;
 }
 
-/* Group icons right */
 .iconright {
   display: flex;
   align-items: center;
