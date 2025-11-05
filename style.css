@@ -8,6 +8,8 @@ header {
 }
 
 .chalenge {
+  display: flex;
+  text-align: center;
   font-size: larger;
   text-decoration-color: #1b4d99;
 }
