@@ -196,6 +196,7 @@ body {
   font-size: 48px;
   line-height: 57px;
   margin: 8px 0 16px;
+  margin-top: 32px;
 }
 
 .video {
@@ -210,6 +211,10 @@ body {
   border: 6px solid #a5fcf8;
   border-radius: 16px;
   overflow: hidden;
+}
+
+.parawelcome {
+  color: white;
 }
 
 .chalenge {
