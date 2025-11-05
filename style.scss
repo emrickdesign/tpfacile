@@ -203,7 +203,7 @@ body {
 }
   
 .texteimage {
-    max-width: 560px;
+    max-width: 960px;
     margin-inline: auto;
     padding: 16px;
 }
@@ -242,6 +242,28 @@ body {
 
 .img2 {
 display: none;
+}
+
+@media screen and (min-width: 700px) {
+
+    .texteimage {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+        
+        .img1 {
+            display: none;
+        }
+        .img2 {
+            display: flex;
+            width: 100%;
+            aspect-ratio: 16/9;
+            border: 6px solid $primary200;
+            border-radius: 16px; 
+            flex: 1;
+            align-items: center;
+        }
+    }
 }
 
 
@@ -390,7 +412,6 @@ display: none;
     color: white;
 }
 
-<<<<<<< HEAD
 .footer {
   display: none;  
 }
@@ -404,11 +425,7 @@ display: none;
     }
 }
 
-@media screen and (min-width: 700px) {
-.
 
-=======
 .titreengros{
     font-size: 40px;
->>>>>>> 9b639e35a75e434267896d09382eb728462ea38e
 }
