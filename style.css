@@ -20,6 +20,13 @@
 }
 
 .chalenge {
+  background-color: #3cc8e9;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.chalengetitre {
   display: flex;
   text-align: center;
   font-size: larger;
@@ -27,5 +34,36 @@
 }
 
 .chalengeimage1 {
-  background-color: #8e9293;
+  background-color: #ffffff;
+}
+
+.chalengeimage2 {
+  background-color: #ffffff;
+}
+
+.chalengeimage3 {
+  background-color: #ffffff;
+}
+
+.textes {
+  color: #ffffff;
+}
+
+.chalengeimage1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+
+.chalengeimage2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.chalengeimage3 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
