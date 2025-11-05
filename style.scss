@@ -20,12 +20,126 @@ $space-2: 16px;
 $space-3: 24px;
 $space-4: 32px;
 
+h1,
+h2,
+h3,
+h4,
+p,
+.s,
+.s-bold,
+.xs,
+.xs-bold,
+.link,
+.link-bold,
+.xs-link {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 57.6px;
+
+  @media screen and (min-width: $width-menu-xl) {
+    font-size: 64px;
+    line-height: 76.8px;
+  }
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.8px;
+
+  @media screen and (min-width: $width-menu-xl) {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+}
+
+.s {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.s-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.xs {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.xs-bold {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-decoration: underline;
+}
+
+.link-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-decoration: underline;
+}
+
+.xs-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  text-decoration: underline;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   letter-spacing: -0.02em;
   text-underline-position: from-font;
   text-decoration-skip-ink: auto;
 }
+
 
 
 .header {
@@ -50,30 +164,28 @@ body {
 .iconright {
   display: flex;
   align-items: center;
-  gap: $space-1;                        /* 8px entre cloche / avatar / flèche */
+  gap: $space-1;
 }
 
-/* Bell + arrow (SVG) */
-.bell svg,
-.menuburger svg {
-  width: 24px;                          /* 24 = 3×8 */
-  height: 24px;
+.bell,
+.menuburger {
+  width: 16px;
+  height: 16px;
   display: block;
-  fill: $neutral0;                      /* blanc assuré */
 }
 
-/* Avatar rond recadré */
+
 .profil {
-  width: 32px;                          /* 32 = 4×8 */
+  width: 32px;
   height: 32px;
   border-radius: 50%;
-  overflow: hidden;                      /* coupe l’image dans le cercle */
+  overflow: hidden;
 }
 
 .personne {
   width: 100%;
   height: 100%;
-  object-fit: cover;                     /* effet “petite boule” */
+  object-fit: cover;
   display: block;
 }
 
