@@ -200,13 +200,13 @@ body {
 
 .blocwelcome {
     background: $primary950;
-  }
+}
   
 .texteimage {
     max-width: 560px;
     margin-inline: auto;
     padding: 16px;
-  }
+}
   
 .textwelcome {
     color: $neutral0;
@@ -217,13 +217,13 @@ body {
     margin: 8px 0 16px;
     margin-top: 40px;
     color: #cffefb;
-  }
+}
   
 .video {
     position: relative;
     margin-bottom: 40px;
     margin-top: 40px;
-  }
+}
   
 .video img {
     width: 100%;
@@ -232,13 +232,50 @@ body {
     border: 6px solid $primary200;
     border-radius: 16px; 
     overflow: hidden;
-  }
+}
 
 .parawelcome {
     color: white;
     font-size: 80%;
     margin-bottom: 40px;
 }
+
+
+.blocquiz {
+    background: $primary950;     
+}
+  
+  .toutquiz{
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #ffffff;
+}
+
+  .titrequizz h1{
+    color: #166f78;
+    font-size: 40px;
+}
+  
+  .text-quiz{
+    color: #166f78;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+  
+  .repondreauquiz{
+    background: #ffbd1d;
+    border: none;
+    color: #101010;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
 
 
 .chalenge{

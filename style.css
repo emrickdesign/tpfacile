@@ -221,6 +221,41 @@ body {
   margin-bottom: 40px;
 }
 
+.blocquiz {
+  background: #083c44;
+}
+
+.toutquiz {
+  padding: 24px 16px;
+  text-align: center;
+  border-radius: 40px 40px 0px 0px;
+  background-color: #ffffff;
+}
+
+.titrequizz h1 {
+  color: #166f78;
+  font-size: 40px;
+}
+
+.text-quiz {
+  color: #166f78;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.repondreauquiz {
+  background: #ffbd1d;
+  border: none;
+  color: #101010;
+  font-size: 16px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
 .chalenge {
   background-color: #3cc8e9;
   display: flex;
