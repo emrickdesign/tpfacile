@@ -227,6 +227,7 @@ body {
   flex-direction: column;
   gap: 50px;
   padding: 50px 0;
+  border-radius: 40px 40px 0px 0px;
 }
 
 .chalengetitre {
@@ -246,10 +247,6 @@ body {
 
 .chalengeimage3 {
   background-color: #ffffff;
-}
-
-.textes {
-  color: #ffffff;
 }
 
 .chalengeimage1 {
@@ -294,19 +291,36 @@ body {
   padding-block: 40px;
 }
 
-.chalengetexte1 {
+.chalengetexteA {
   padding-inline: 25px;
 }
 
-.chalengetexte2 {
+.chalengetexteB {
   padding-inline: 25px;
 }
 
-.chalengetexte3 {
+.chalengetexteC {
   padding-inline: 25px;
 }
 
 .legap1 {
-  align-items: ro;
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.legap2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.legap3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.titre-clair {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
