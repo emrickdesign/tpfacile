@@ -197,9 +197,42 @@ body {
     background-color: #23edea;
 }
 
+
 .blocwelcome {
-    background-color: #083c44;
-}
+    background: $primary950;
+  }
+  
+.texteimage {
+    max-width: 560px;
+    margin-inline: auto;
+    padding: 16px;
+  }
+  
+.textwelcome {
+    color: $neutral0;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-size: 48px;
+    line-height: 57px;
+    margin: 8px 0 16px;
+  }
+  
+
+.video {
+    position: relative;
+    margin-bottom: 16px;
+  }
+  
+.video img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+    border: 6px solid $primary200;
+    border-radius: 16px; 
+    overflow: hidden;
+  }
+
+
 
 .chalenge{
     background-color: #3cc8e9;
