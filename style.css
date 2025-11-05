@@ -201,11 +201,13 @@ body {
 }
 
 .chalengeimage1 {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-bottom: 25px;
   margin-top: 50px;
   border-radius: 0% 11% 11% 0%;
+  position: relative;
+  right: 25px;
 }
 
 .chalengeimage2 {
@@ -214,12 +216,16 @@ body {
   margin-bottom: 25px;
   margin-top: 50px;
   border-radius: 11% 0% 0% 11%;
+  position: relative;
+  left: 25px;
 }
 
 .chalengeimage3 {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-bottom: 25px;
   margin-top: 50px;
   border-radius: 0% 11% 11% 0%;
+  position: relative;
+  right: 25px;
 }/*# sourceMappingURL=style.css.map */
