@@ -418,23 +418,20 @@ display: none;
 
 @media screen and (min-width: 700px) {
     .footer {
-        display: flex;
         background-color: $primary800;
         height: 100px;
         border-radius: 40px 40px 0px 0px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        min-height: 56px;
+    }
+
+    .textfooter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
     }
 }
 
 
 .titreengros{
     font-size: 40px;
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> ae7c87abd79c39af06cfaea24cb84e8b37cf949e
